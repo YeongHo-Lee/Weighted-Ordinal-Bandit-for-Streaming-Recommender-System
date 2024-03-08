@@ -1,4 +1,4 @@
-![image](https://github.com/YeongHo-Lee/AICP_WONDERS/assets/77314467/22b0296c-c654-42c4-93b6-40e002961b5d)# Weighted Ordinal Bandit for Streaming Recommender System
+
 
 **Coworking of UNIST SDMLAB**.
 
@@ -28,8 +28,11 @@ Mar, 2021 - Dec 2021
 
 ### 2. Chosing Data
 
-- ** R6B - Yahoo! Front Page Today Module User Click Log Dataset, version 2.0 (300 MB)[[url]](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r&did=54&guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIeRtdeIJKedFa2IxC_XpB7RtDW9NiBKEGrACYYXfa47q-Hfi0rg1anD96sXDrK-RwnSsfDEOi_GcBGd_n1bt1KsI3D739hrCcQRkHabNqQcpAzqE6tci2Z3XHlBdskYwTHMF9kzpEr8uOzQVR2F55v8UGC8qWSoya672QQPjFhP)
+- **R6B - Yahoo! Front Page Today Module User Click Log Dataset, version 2.0 (300 MB)** [[url]](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r&did=54&guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIeRtdeIJKedFa2IxC_XpB7RtDW9NiBKEGrACYYXfa47q-Hfi0rg1anD96sXDrK-RwnSsfDEOi_GcBGd_n1bt1KsI3D739hrCcQRkHabNqQcpAzqE6tci2Z3XHlBdskYwTHMF9kzpEr8uOzQVR2F55v8UGC8qWSoya672QQPjFhP)
 - Data is collected on whether a user with a random feature (displayed_arm) clicks on a news article (reward=1) or not (reward=0) with equal probability on a randomly displayed news article (displayed_arm) from a given set of news articles (pool) at a given point in time on the Yahoo front page.
+- ![image](https://github.com/YeongHo-Lee/AICP_WONDERS/assets/77314467/dcbf69d2-8a05-416f-8d50-3396ce832e89)
+- ![image](https://github.com/YeongHo-Lee/AICP_WONDERS/assets/77314467/c280f9e7-def0-4fa6-8bc0-bde21f6bd466)
+
 
 ### 3. Proposed Algorithm
 - 
