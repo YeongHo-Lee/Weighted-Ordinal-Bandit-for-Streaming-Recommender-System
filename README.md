@@ -1,6 +1,6 @@
-# Weighted Ordinal Bandit for Streaming Recommender System
+# Weighted Ordinal Bandit for Streaming Recommender System(WONDERS)
 
-**Coworking of UNIST SDMLAB**.
+**TEAM WONDERS**.
 
 <a href="https://github.com/JerryKwon">Youngin Kwon</a>, <a href="https://github.com/YeongHo-Lee">Yeongho Lee</a>, Yejin Kim, Yeongjin Ko, Gi-Soo Kim 
 
