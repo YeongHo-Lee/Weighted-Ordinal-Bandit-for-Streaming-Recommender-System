@@ -49,11 +49,16 @@ Mar, 2021 - Dec 2021
 - The two suggestion algorithms generated up to 7.7% more cumulative clicks than the rest of the existing algorithms.
 - Performance is best when window size is small to give less consideration to recent positive news articles.
 - ![image](https://github.com/YeongHo-Lee/Weighted-Ordinal-Bandit-for-Streaming-Recommender-System/assets/77314467/f4a01d94-8309-4568-91b1-6aff192228bf)
+- uniform: algorithm for randomly extracting news articles from a given set of news articles with uniform distribution
+- ucb_0.5: LinUCB (hyperparameter $\alpha=0.5$) algorithm
+- ts_1.5: LinTS (hyperparmeter $\epsilon=1.5$) algorithm
+- (proposed) wlsucb_0.5_10: Weighted LinUCB (hyperparameter $\alpha=0.5, w=10$) algorithm
+- (proposed) wlsts_1.5_10: Weighted LinTS (hyperparameter $\epsilon=1.5, w=10$) algorithm
 
 ## Conclusion & Discussion
 - Understand the LinUCB and LinTS algorithms, two of the most representative algorithms for CMAB problems using user information (context).
 - Solve the problem of sampling degradation in the Thompson sampling algorithm as the dimensionality of the context vector increases.
--The absence of a theoretical analysis of the regret involved in the bandit algorithm.
+- The absence of a theoretical analysis of the regret involved in the bandit algorithm.
 
 
 
