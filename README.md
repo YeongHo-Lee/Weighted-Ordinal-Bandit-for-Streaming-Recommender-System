@@ -36,7 +36,8 @@ Mar, 2021 - Dec 2021
 
 ### 3. Proposed Algorithm
 - weight $0 \leq w_t \leq 1$ : Define queues as large as window size ($w$) to reflect changing preferences. Queue only news articles with positive rewards to learn which news articles users prefer. The average value of the cosine distance (1-cosine similarity ($S_c$)) between the selected news article and the queued favourite news article is used as a weighting factor, with higher weighting if the selected news article is different from the favourite news article
-- Learn the Weighted Least Squares method for weighting LinUCB and LinTS : $\hat{\theta}=\argmin_{\theta}\sum_{i=1}^Nw_i(y_i-x_i'\theta)^2$ 
+- Learn the Weighted Least Squares method for weighting LinUCB and LinTS :
+  $\hat{\theta}=\argmin_{\theta} \sum_{i=1}^Nw_i(y_i-x_i'\theta)^2$ 
 $\Rightarrow$ $\hat{\theta}_{WLS}=(X^TWX)^{-1}X^TWY$
 - Performance issues with the Thompson Sampling method : As the dimensionality of the estimated parameters for the bandit algorithm increased, the performance of the Thompson Sampling algorithm, which samples by estimating the posterior distribution, degraded. Estimates the distribution of parameters for the selected arm, taking advantage of the fact that the gram matrix $(X^TX)$ is block-diagonal when computing estimates due to the nature of the data. The inverse transform sampling method is used to sample parameters based on distributions, and the cholesky decomposition of the covariance matrix $\Sigma$ for the selected arm is used to improve sampling speed by storing the decomposed matrix separately.
 
